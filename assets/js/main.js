@@ -118,6 +118,30 @@ $('.faq-wrapper .faq-title').on('click', function (e) {
 });
 
 // slider
+
+var swiper = new Swiper('.passenger-slider', {
+  slidesPerView: 1,
+  spaceBetween: 30, /* Added a little space between slides just to be safe */
+  loop: true,
+  
+  /* Enables the Next/Prev Arrows */
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false, /* Keeps autoplay running after user clicks an arrow */
+  },
+  speed: 1000,
+});
+
 var swiper = new Swiper('.feature-slider', {
   slidesPerView: 3,
   spaceBetween: 30,
