@@ -6,7 +6,7 @@
 </div>
 
 <header class="header-section header-section-one">
-    <div class="header">
+    <div class="header py-lg-3">
         <div class="header-bottom-area">
             <div class="container-fluid">
                 <div class="header-menu-content">
@@ -21,20 +21,11 @@
                             <ul class="navbar-nav main-menu ml-auto">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="javascript:void(0);">About Us</a></li>
-                                <li class="menu_has_children"><a href="javascript:void(0);">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="javascript:void(0);">GSA Representation</a></li>
-                                        <li><a href="javascript:void(0);">Cargo Operations</a></li>
-                                        <li><a href="javascript:void(0);">Passenger Airlines</a></li>
-                                        <li><a href="javascript:void(0);">Special Handling</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="services">Services</a></li>
                                 <li class="menu_has_children"><a href="javascript:void(0);">Carriers</a>
                                     <ul class="sub-menu">
-                                        <li><a href="javascript:void(0);">Turkish Cargo</a></li>
-                                        <li><a href="javascript:void(0);">American Airlines</a></li>
-                                        <li><a href="javascript:void(0);">Oman Air</a></li>
-                                        <li><a href="javascript:void(0);">SpiceJet</a></li>
+                                        <li><a href="passenger">Passenger</a></li>
+                                        <li><a href="cargo">Cargo</a></li>
                                     </ul>
                                 </li>
                                 
@@ -69,3 +60,13 @@
     <i class="las la-dot-circle"></i>
     <span>Top</span>
 </a>
+
+
+
+<style>
+.header{
+    background-color: #000;
+}
+header{
+    position: static !important;}
+</style>
