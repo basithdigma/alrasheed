@@ -3,12 +3,14 @@
 CREATE TABLE IF NOT EXISTS `blogs` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
+  `slug` varchar(255) DEFAULT NULL,
   `content` longtext NOT NULL,
   `image` varchar(255) DEFAULT NULL,
   `status` enum('published','draft') DEFAULT 'published',
   `event_date` date DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `idx_blogs_slug` (`slug`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS `careers` (

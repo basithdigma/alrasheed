@@ -19,6 +19,38 @@ function uploadImage($fileKey) {
     return null;
 }
 
+function generateSlug($title, $pdo, $id = null) {
+    $slug = preg_replace('~[^\pL\d]+~u', '-', $title);
+    $slug = @iconv('utf-8', 'us-ascii//TRANSLIT', $slug);
+    $slug = preg_replace('~[^-\w]+~', '', $slug);
+    $slug = trim($slug, '-');
+    $slug = preg_replace('~-+~', '-', $slug);
+    $slug = strtolower($slug);
+    $slug = substr($slug, 0, 100);
+    if (empty($slug)) {
+        $slug = 'news-' . substr(md5(uniqid()), 0, 6);
+    }
+    
+    $originalSlug = $slug;
+    $count = 1;
+    while (true) {
+        if ($id) {
+            $stmt = $pdo->prepare("SELECT id FROM blogs WHERE slug = ? AND id != ?");
+            $stmt->execute([$slug, $id]);
+        } else {
+            $stmt = $pdo->prepare("SELECT id FROM blogs WHERE slug = ?");
+            $stmt->execute([$slug]);
+        }
+        if ($stmt->fetch()) {
+            $slug = $originalSlug . '-' . $count;
+            $count++;
+        } else {
+            break;
+        }
+    }
+    return $slug;
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $action = $_POST['action'] ?? '';
 
@@ -30,10 +62,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $event_date = !empty($_POST['event_date']) ? $_POST['event_date'] : null;
             $content = $_POST['content'] ?? '';
             $imagePath = uploadImage('image');
+            $slug = generateSlug($title, $pdo);
 
             // Update INSERT query
-            $stmt = $pdo->prepare("INSERT INTO blogs (title, content, status, event_date, image) VALUES (?, ?, ?, ?, ?)");
-            $stmt->execute([$title, $content, $status, $event_date, $imagePath]);
+            $stmt = $pdo->prepare("INSERT INTO blogs (title, slug, content, status, event_date, image) VALUES (?, ?, ?, ?, ?, ?)");
+            $stmt->execute([$title, $slug, $content, $status, $event_date, $imagePath]);
 
             $_SESSION['success'] = "Blog created successfully!";
             header("Location: blogs.php");
@@ -46,6 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Capture Event Date
             $event_date = !empty($_POST['event_date']) ? $_POST['event_date'] : null;
             $content = $_POST['content'] ?? '';
+            $slug = generateSlug($title, $pdo, $id);
 
             // Get current image
             $stmt = $pdo->prepare("SELECT image FROM blogs WHERE id = ?");
@@ -62,8 +96,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
 
             // Update UPDATE query
-            $stmt = $pdo->prepare("UPDATE blogs SET title = ?, content = ?, status = ?, event_date = ?, image = ? WHERE id = ?");
-            $stmt->execute([$title, $content, $status, $event_date, $imagePath, $id]);
+            $stmt = $pdo->prepare("UPDATE blogs SET title = ?, slug = ?, content = ?, status = ?, event_date = ?, image = ? WHERE id = ?");
+            $stmt->execute([$title, $slug, $content, $status, $event_date, $imagePath, $id]);
 
             $_SESSION['success'] = "Blog updated successfully!";
             header("Location: blogs.php");

@@ -5,6 +5,20 @@
 <head>
     <?php include('meta.php'); ?>
     <?php include('links.php'); ?>
+    <style>
+        .blog-thumb a {
+            display: block;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .blog-thumb a img {
+            transition: transform 0.4s ease;
+        }
+        .blog-thumb a:hover img {
+            transform: scale(1.06);
+        }
+    </style>
 </head>
 
 <body>
@@ -40,12 +54,16 @@
                                     foreach ($blogs as $row):
                                         // Determine which date to display: event date if provided, otherwise created_at
                                         $display_date = (!empty($row['event_date']) && $row['event_date'] !== '0000-00-00') ? $row['event_date'] : $row['created_at'];
+                                        $postSlug = !empty($row['slug']) ? $row['slug'] : preg_replace('/[^a-z0-9]+/i', '-', strtolower(trim($row['title'])));
+                                        $detailUrl = "news-details?slug=" . urlencode($postSlug);
                             ?>
                              <div class="col-lg-4 col-md-6 col-sm-6 mb-30">
                                 <div class="blog-item">
                                     <?php if(!empty($row['image'])): ?>
-                                    <div class="blog-thumb" style="height: 250px; overflow: hidden;">
-                                        <img src="<?= htmlspecialchars($row['image']) ?>" alt="<?= htmlspecialchars($row['title']) ?>" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="blog-thumb" style="height: 250px; overflow: hidden; border-radius: 8px;">
+                                        <a href="<?= $detailUrl ?>" style="display: block; width: 100%; height: 100%;">
+                                            <img src="<?= htmlspecialchars($row['image']) ?>" alt="<?= htmlspecialchars($row['title']) ?>" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;">
+                                        </a>
                                     </div>
                                     <?php endif; ?>
                                     <div class="blog-content">
@@ -54,10 +72,10 @@
                                             <span class="date"><?= date('d F Y', strtotime($display_date)) ?></span>
                                             <span class="comment">Admin</span>
                                         </div>
-                                        <h3 class="title"><a href="news-details.php?id=<?= $row['id'] ?>"><?= htmlspecialchars($row['title']) ?></a></h3>
+                                        <h3 class="title"><a href="<?= $detailUrl ?>"><?= htmlspecialchars($row['title']) ?></a></h3>
                                         <p><?= htmlspecialchars(mb_substr(strip_tags($row['content']), 0, 100)) ?>...</p>
                                         <div class="blog-btn">
-                                            <a href="news-details.php?id=<?= $row['id'] ?>">Read More <i class="icon-Group-2361 ml-2"></i></a>
+                                            <a href="<?= $detailUrl ?>">Read More <i class="icon-Group-2361 ml-2"></i></a>
                                         </div>
                                     </div>
                                 </div>
