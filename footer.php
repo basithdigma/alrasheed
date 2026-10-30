@@ -34,9 +34,9 @@
                     <div class="footer-widget">
                         <h4 class="widget-title">OUR LOCATION</h4>
                         <ul class="footer-list">
-                            <li><a href="javascript:void(0);">Al-Rashed Complex, Ground Floor</a></li>
-                            <li><a href="javascript:void(0);">Fahad Al-Salem St, Block 12</a></li>
-                            <li><a href="javascript:void(0);">Kuwait City, Kuwait</a></li>
+                            <li><a href="https://www.google.com/maps/place/Al-Rashed+Aviation/@29.3684004,47.9690722,17z" target="_blank" rel="noopener noreferrer">Al-Rashed Complex, Ground Floor</a></li>
+                            <li><a href="https://www.google.com/maps/place/Al-Rashed+Aviation/@29.3684004,47.9690722,17z" target="_blank" rel="noopener noreferrer">Fahad Al-Salem St, Block 12</a></li>
+                            <li><a href="https://www.google.com/maps/place/Al-Rashed+Aviation/@29.3684004,47.9690722,17z" target="_blank" rel="noopener noreferrer">Kuwait City, Kuwait</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,6 +48,7 @@
                             <li><a href="tel:+96522478123">+965 2247 8123 / 4</a></li>
                             <li><a href="tel:+96522451696">+965 2245 1696</a></li>
                             <li><a href="mailto:info@alrashedaviation.com">info@alrashedaviation.com</a></li>
+                            <li><a href="mailto:cargo.gsa@alrashedaviation.com">cargo.gsa@alrashedaviation.com</a></li>
                         </ul>
                     </div>
                 </div>
