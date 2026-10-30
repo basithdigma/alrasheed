@@ -1,0 +1,23 @@
+# Database configuration with sensitive credentials
+admin/includes/db.php
+
+# Scratch and trash files
+bin.php
+zzz_trash
+
+# Original image backup folders
+*orig_backup/
+assets/img/orig_backup/
+assets/img/cargo/orig_backup/
+assets/img/passenger/orig_backup/
+
+# Environment files
+.env
+.env.*
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

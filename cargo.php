@@ -40,14 +40,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Turkish Cargo</a></h3>
+                            <h3 class="title"><a href="turkish-cargo">Turkish Cargo</a></h3>
                             <span class="time"><i class="las la-globe"></i> 104 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>The leading air cargo brand in the world, combining wide-ranging services with Turkey's unique geographical advantages.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="turkish-cargo" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -63,14 +63,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Egypt Air Cargo</a></h3>
+                            <h3 class="title"><a href="egypt-air-cargo">Egypt Air Cargo</a></h3>
                             <span class="time"><i class="las la-globe"></i> 14 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>Specializing in general and special cargo, operating a long-range wide-body fleet connecting out of Cairo terminals.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="egypt-air-cargo" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -86,14 +86,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">American Airlines Cargo</a></h3>
+                            <h3 class="title"><a href="american-airlines-cargo">American Airlines Cargo</a></h3>
                             <span class="time"><i class="las la-globe"></i> 350 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>A tradition of innovation and experience, providing daily scheduled cargo lift to over 330 cities in 60 countries.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="american-airlines-cargo" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -109,14 +109,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Ethiopian Airlines Cargo</a></h3>
+                            <h3 class="title"><a href="ethiopian-airlines-cargo">Ethiopian Airlines Cargo</a></h3>
                             <span class="time"><i class="las la-globe"></i> 68 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>The largest air cargo network in Africa, featuring state-of-the-art terminals for e-commerce, mail, and courier logistics.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="ethiopian-airlines-cargo" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -132,14 +132,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Coyne Air</a></h3>
+                            <h3 class="title"><a href="coyne-air">Coyne Air</a></h3>
                             <span class="time"><i class="las la-globe"></i> 36 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>Pioneering global routes with secure scheduled cargo services to the world’s most difficult-to-reach destinations.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="coyne-air" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -155,14 +155,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">MY FREIGHTER</a></h3>
+                            <h3 class="title"><a href="my-freighter">MY FREIGHTER</a></h3>
                             <span class="time"><i class="las la-globe"></i> 76 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>A pivotal multi-modal player creating a new Silk Road linking East and West through Central Asia.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="my-freighter" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -178,14 +178,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Centrum Air</a></h3>
+                            <h3 class="title"><a href="centrum-air">Centrum Air</a></h3>
                             <span class="time"><i class="las la-globe"></i> 40 Destinations</span>
                         </div>
                         <div class="course-content-body">
                             <p>Uzbekistan’s leading private airline operating a modern fleet across Asia, the Middle East, and Europe.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="centrum-air" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -201,14 +201,14 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Fits Cargo</a></h3>
+                            <h3 class="title"><a href="fits-cargo">Fits Cargo</a></h3>
                             <span class="time"><i class="las la-globe"></i> Global Network</span>
                         </div>
                         <div class="course-content-body">
                             <p>A hybrid physical and virtual carrier specializing in transshipment via strategic interline agreements with 160+ partners.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Cargo Inquiry <i class="fas fa-shuttle-van ml-2"></i></a>
+                            <a href="fits-cargo" class="btn--base">Read More <i class="fas fa-shuttle-van ml-2"></i></a>
                         </div>
                     </div>
                 </div>

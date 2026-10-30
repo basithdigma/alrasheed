@@ -31,7 +31,7 @@
                                         <img src="assets/img/passenger/nepal.webp" alt="Nepal Airlines">
                                     </div>
                                     <div class="popular-item-content">
-                                        <h5 class="title"><a href="nepal-airlines.html">Nepal Airlines</a></h5>
+                                        <h5 class="title"><a href="nepal-airlines">Nepal Airlines</a></h5>
                                     </div>
                                 </div>
                                 <div class="single-popular-item d-flex flex-wrap align-items-center">
@@ -39,7 +39,7 @@
                                         <img src="assets/img/passenger/vietnam.webp" alt="Vietnam Airlines">
                                     </div>
                                     <div class="popular-item-content">
-                                        <h5 class="title"><a href="vietnam-airlines.html">Vietnam Airlines</a></h5>
+                                        <h5 class="title"><a href="vietnam-airlines">Vietnam Airlines</a></h5>
                                     </div>
                                 </div>
                                 <div class="single-popular-item d-flex flex-wrap align-items-center">
@@ -47,7 +47,7 @@
                                         <img src="assets/img/passenger/cebu.webp" alt="Cebu Pacific">
                                     </div>
                                     <div class="popular-item-content">
-                                        <h5 class="title"><a href="cebu-pacific.html">Cebu Pacific</a></h5>
+                                        <h5 class="title"><a href="cebu-pacific">Cebu Pacific</a></h5>
                                     </div>
                                 </div>
                                 <div class="single-popular-item d-flex flex-wrap align-items-center">
@@ -55,7 +55,7 @@
                                         <img src="assets/img/passenger/drukair.webp" alt="Drukair">
                                     </div>
                                     <div class="popular-item-content">
-                                        <h5 class="title"><a href="drukair.html">Drukair</a></h5>
+                                        <h5 class="title"><a href="drukair">Drukair</a></h5>
                                     </div>
                                 </div>
                             </div>

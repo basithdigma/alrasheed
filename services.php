@@ -36,13 +36,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Sales & Marketing</a></h3>
+                            <h3 class="title"><a href="sales-marketing">Sales & Marketing</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>As a true partner for Airlines we represent, we understand market trends and evolving customer demand.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="sales-marketing" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -55,13 +55,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Operations</a></h3>
+                            <h3 class="title"><a href="operations">Operations</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Ensuring qualified manpower and appropriate certifications in regard to regulatory authorities.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="operations" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -74,13 +74,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Corporate Sales</a></h3>
+                            <h3 class="title"><a href="corporate-sales">Corporate Sales</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Dedicated commercial department focused on travel agencies, tour operators, and corporate clients.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="corporate-sales" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -93,13 +93,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Reservation & Ticketing</a></h3>
+                            <h3 class="title"><a href="reservation-ticketing">Reservation & Ticketing</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Top quality travel and tourism services with comprehensive airline packages for individuals and corporations.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="reservation-ticketing" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -112,13 +112,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Customer Service</a></h3>
+                            <h3 class="title"><a href="customer-service">Customer Service</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Ensuring customer satisfaction by exceeding expectations and delivering on every service promise.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="customer-service" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -131,13 +131,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Special Handling Cargo</a></h3>
+                            <h3 class="title"><a href="special-handling-cargo">Special Handling Cargo</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Adherence to the highest industry standards to enhance business opportunities for our cargo clients.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="special-handling-cargo" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -150,13 +150,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">IT & Communications</a></h3>
+                            <h3 class="title"><a href="it-communications">IT & Communications</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>ICT solutions through our proprietary FIASTA system, providing a complete range of info-tech services.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="it-communications" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -169,13 +169,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">PR & Communication</a></h3>
+                            <h3 class="title"><a href="pr-communication">PR & Communication</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Experienced in event handling and maintaining strong airline presence across local media channels.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="pr-communication" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -188,13 +188,13 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Administrative & Legal</a></h3>
+                            <h3 class="title"><a href="administrative-legal">Administrative & Legal</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Negotiations with administrative authorities like Civil Aviation and Airport Authorities for airline operations.</p>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
+                            <a href="administrative-legal" class="btn--base">View Details <i class="icon-Group-2361 ml-2"></i></a>
                         </div>
                     </div>
                 </div>

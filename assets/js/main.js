@@ -119,6 +119,27 @@ $('.faq-wrapper .faq-title').on('click', function (e) {
 
 // slider
 
+var swiper = new Swiper('.hero-slider', {
+  slidesPerView: 1,
+  loop: true,
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  speed: 1000,
+});
+
 var swiper = new Swiper('.passenger-slider', {
   slidesPerView: 1,
   spaceBetween: 30, /* Added a little space between slides just to be safe */
@@ -552,6 +573,14 @@ $(".progressbar").each(function(){
 $('.ratings-form-text').on('click', function(){
   $('.ratings-form').toggleClass('open');
 });
-  
+
+// Sticky Header
+$(window).on('scroll', function () {
+  if ($(this).scrollTop() > 150) {
+    $('.header-section').addClass('sticky-header');
+  } else {
+    $('.header-section').removeClass('sticky-header');
+  }
+});
 
 })(jQuery);

@@ -72,7 +72,7 @@
                             </ul>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Inquire Booking <i class="fas fa-ticket-alt ml-2"></i></a>
+                            <a href="nepal-airlines" class="btn--base">View More <i class="fas fa-ticket-alt ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                             </ul>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Inquire Booking <i class="fas fa-ticket-alt ml-2"></i></a>
+                            <a href="vietnam-airlines" class="btn--base">View More <i class="fas fa-ticket-alt ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                             </ul>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Inquire Booking <i class="fas fa-ticket-alt ml-2"></i></a>
+                            <a href="cebu-pacific" class="btn--base">View More <i class="fas fa-ticket-alt ml-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@
                             </ul>
                         </div>
                         <div class="course-content-footer">
-                            <a href="javascript:void(0);" class="btn--base">Inquire Booking <i class="fas fa-ticket-alt ml-2"></i></a>
+                            <a href="drukair" class="btn--base">View More <i class="fas fa-ticket-alt ml-2"></i></a>
                         </div>
                     </div>
                 </div>
