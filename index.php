@@ -1,3 +1,4 @@
+<?php require_once 'admin/includes/db.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +8,35 @@
     <?php include('meta.php'); ?>
 
     <?php include('links.php'); ?>
+
+    <style>
+        .blog-thumb a {
+            display: block;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+        }
+        .blog-thumb a img {
+            transition: transform 0.4s ease;
+        }
+        .blog-thumb a:hover img {
+            transform: scale(1.06);
+        }
+        .blog-item {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+        .blog-btn {
+            margin-top: auto;
+            padding-top: 15px;
+        }
+    </style>
 
 </head>
 
@@ -750,60 +780,54 @@
                     </div>
                 </div>
                 <div class="row justify-content-center mb-30-none">
+                    <?php
+                    try {
+                        $latestStmt = $pdo->prepare("SELECT id, title, slug, content, image, event_date, created_at FROM blogs WHERE status = 'published' ORDER BY COALESCE(NULLIF(event_date, '0000-00-00'), created_at) DESC, created_at DESC, id DESC LIMIT 3");
+                        $latestStmt->execute();
+                        $latestBlogs = $latestStmt->fetchAll();
+
+                        if (!empty($latestBlogs)):
+                            foreach ($latestBlogs as $row):
+                                $display_date = (!empty($row['event_date']) && $row['event_date'] !== '0000-00-00') ? $row['event_date'] : $row['created_at'];
+                                $postSlug = !empty($row['slug']) ? $row['slug'] : preg_replace('/[^a-z0-9]+/i', '-', strtolower(trim($row['title'])));
+                                $detailUrl = "news-details?slug=" . urlencode($postSlug);
+                                $excerpt = htmlspecialchars(mb_substr(strip_tags($row['content']), 0, 110));
+                    ?>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                         <div class="blog-item">
-                            <div class="blog-thumb">
-                                <img src="assets/images/blog/blog-1.png" alt="Turkish Cargo Trip">
+                            <?php if (!empty($row['image'])): ?>
+                            <div class="blog-thumb" style="height: 250px; overflow: hidden; border-radius: 8px;">
+                                <a href="<?= $detailUrl ?>">
+                                    <img src="<?= htmlspecialchars($row['image']) ?>" alt="<?= htmlspecialchars($row['title']) ?>">
+                                </a>
                             </div>
+                            <?php endif; ?>
                             <div class="blog-content">
                                 <div class="blog-post-meta">
-                                    <span class="date">02 December 2018</span>
+                                    <span class="date"><?= date('d F Y', strtotime($display_date)) ?></span>
                                     <span class="comment"><i class="fas fa-plane"></i> Event</span>
                                 </div>
-                                <h3 class="title"><a href="javascript:void(0);">Turkish Cargo Sponsored Fam Trip to Istanbul</a></h3>
-                                <p>Turkish Cargo sponsored an exclusive 3-day trip for Kuwait's top 12 cargo agents, strengthening our operational ties in Turkey.</p>
+                                <h3 class="title"><a href="<?= $detailUrl ?>"><?= htmlspecialchars($row['title']) ?></a></h3>
+                                <p><?= $excerpt ?><?= (mb_strlen(strip_tags($row['content'])) > 110) ? '...' : '' ?></p>
                                 <div class="blog-btn">
-                                    <a href="javascript:void(0);">Read More <i class="fas fa-arrow-right ml-2"></i></a>
+                                    <a href="<?= $detailUrl ?>">Read More <i class="fas fa-arrow-right ml-2"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <img src="assets/images/blog/blog-2.png" alt="i-Cargo Training">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-post-meta">
-                                    <span class="date">16 July 2018</span>
-                                    <span class="comment"><i class="fas fa-laptop-code"></i> Training</span>
-                                </div>
-                                <h3 class="title"><a href="javascript:void(0);">Etihad Cargo – I-Cargo Software Training</a></h3>
-                                <p>Our team completed specialized training for the integrated iCargo platform, ensuring a futuristic business model for our partners.</p>
-                                <div class="blog-btn">
-                                    <a href="javascript:void(0);">Read More <i class="fas fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                    <?php
+                            endforeach;
+                        else:
+                    ?>
+                    <div class="col-12 text-center py-4">
+                        <p class="text-muted">No news or events found at the moment.</p>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                        <div class="blog-item">
-                            <div class="blog-thumb">
-                                <img src="assets/images/blog/blog-3.png" alt="Oman Air Cargo Meeting">
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-post-meta">
-                                    <span class="date">15 July 2018</span>
-                                    <span class="comment"><i class="fas fa-users"></i> Meeting</span>
-                                </div>
-                                <h3 class="title"><a href="javascript:void(0);">Oman Air Cargo Annual Budget Meeting</a></h3>
-                                <p>Al-Rashed Aviation participated in the annual budget meeting in Dubai to finalize strategies for the upcoming fiscal year.</p>
-                                <div class="blog-btn">
-                                    <a href="javascript:void(0);">Read More <i class="fas fa-arrow-right ml-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        endif;
+                    } catch (PDOException $e) {
+                        echo '<div class="col-12 text-center text-muted py-4">Unable to load news updates at this time.</div>';
+                    }
+                    ?>
                 </div>
             </div>
         </section>
