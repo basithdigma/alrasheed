@@ -562,3 +562,199 @@ img {
     }
 }
 
+
+
+/* --------------------------------------------------------------------------
+   6. Charter Services Page Tabs & Cards
+   -------------------------------------------------------------------------- */
+.charter-header-desc {
+    max-width: 780px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.charter-tabs-wrapper {
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.charter-nav-pills {
+    display: inline-flex;
+    background: #ffffff;
+    padding: 8px;
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(15, 37, 96, 0.1);
+    border: 1px solid #e2e8f0;
+    gap: 10px;
+}
+
+.charter-nav-pills .nav-item {
+    margin: 0;
+}
+
+.charter-nav-pills .nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 13px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f2560;
+    border-radius: 50px;
+    background: transparent;
+    transition: all 0.35s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.charter-nav-pills .nav-link i {
+    font-size: 16px;
+    color: #f37321;
+    transition: color 0.35s ease;
+}
+
+.charter-tab-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 37, 96, 0.08);
+    color: #0f2560;
+    font-size: 12px;
+    font-weight: 800;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: all 0.35s ease;
+}
+
+.charter-nav-pills .nav-link:hover {
+    color: #0f2560;
+    background: rgba(15, 37, 96, 0.04);
+}
+
+.charter-nav-pills .nav-link.active {
+    background: #0f2560 !important;
+    color: #ffffff !important;
+    box-shadow: 0 8px 24px rgba(15, 37, 96, 0.28);
+}
+
+.charter-nav-pills .nav-link.active i {
+    color: #f37321 !important;
+}
+
+.charter-nav-pills .nav-link.active .charter-tab-badge {
+    background: #f37321 !important;
+    color: #ffffff !important;
+}
+
+.charter-tab-heading {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0f2560;
+    margin-bottom: 6px;
+}
+
+.charter-thumb {
+    position: relative;
+    height: 240px;
+}
+
+.charter-badge {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgba(15, 37, 96, 0.88);
+    color: #ffffff;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    z-index: 2;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.charter-card-btn {
+    font-size: 13px !important;
+    padding: 10px 20px !important;
+    font-weight: 700;
+}
+
+.charter-cta-box {
+    background: linear-gradient(135deg, #0f2560 0%, #19232d 100%);
+    border-radius: 24px;
+    padding: 45px;
+    box-shadow: 0 20px 50px rgba(15, 37, 96, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    position: relative;
+    overflow: hidden;
+}
+
+.charter-cta-subtitle {
+    color: #f37321;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.charter-cta-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.charter-cta-desc {
+    opacity: 0.9;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.charter-cta-btn {
+    background: #f37321 !important;
+    border-color: #f37321 !important;
+    color: #ffffff !important;
+    padding: 14px 28px !important;
+    font-weight: 700;
+    font-size: 14.5px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.charter-cta-btn:hover {
+    background: #ffffff !important;
+    color: #0f2560 !important;
+    border-color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 767px) {
+    .charter-nav-pills {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 18px;
+        padding: 6px;
+    }
+    .charter-nav-pills .nav-link {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 18px;
+        font-size: 15px;
+        border-radius: 14px;
+    }
+    .charter-cta-box {
+        padding: 30px 20px;
+        border-radius: 18px;
+    }
+    .charter-cta-title {
+        font-size: 20px;
+    }
+}
