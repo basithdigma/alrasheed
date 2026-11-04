@@ -2,9 +2,6 @@
 <section class="airlinepros-partnership-section">
     <div class="container">
         <div class="airlinepros-card" data-aos="fade-up" data-aos-duration="1000">
-            <!-- Decorative Aviation Elements -->
-            <div class="partnership-glow-1"></div>
-            <div class="partnership-glow-2"></div>
             
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-11 col-xl-10 text-center">
@@ -48,29 +45,29 @@
                     <!-- Strategic Pillar Highlights -->
                     <div class="partnership-features-grid">
                         <div class="partnership-feature-item">
-                            <div class="feature-icon"><i class="fas fa-award"></i></div>
-                            <div class="feature-text">
+                            <div class="partner-card-icon"><i class="fas fa-award"></i></div>
+                            <div class="partner-feature-text">
                                 <h6>500+ Years</h6>
                                 <p>Collective Experience</p>
                             </div>
                         </div>
                         <div class="partnership-feature-item">
-                            <div class="feature-icon"><i class="fas fa-certificate"></i></div>
-                            <div class="feature-text">
+                            <div class="partner-card-icon"><i class="fas fa-certificate"></i></div>
+                            <div class="partner-feature-text">
                                 <h6>ARC &amp; IATA</h6>
                                 <p>Contracted GSA</p>
                             </div>
                         </div>
                         <div class="partnership-feature-item">
-                            <div class="feature-icon"><i class="fas fa-globe-americas"></i></div>
-                            <div class="feature-text">
+                            <div class="partner-card-icon"><i class="fas fa-globe-americas"></i></div>
+                            <div class="partner-feature-text">
                                 <h6>Global Reach</h6>
                                 <p>Sales &amp; Distribution</p>
                             </div>
                         </div>
                         <div class="partnership-feature-item">
-                            <div class="feature-icon"><i class="fas fa-concierge-bell"></i></div>
-                            <div class="feature-text">
+                            <div class="partner-card-icon"><i class="fas fa-concierge-bell"></i></div>
+                            <div class="partner-feature-text">
                                 <h6>Turnkey Solutions</h6>
                                 <p>Reservations &amp; Events</p>
                             </div>
@@ -94,4 +91,3 @@
         </div>
     </div>
 </section>
-

@@ -10919,10 +10919,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   background-color: #fff !important;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  display: none !important;
-}
+/* Swiper Buttons visible */
 
 /* Sticky Header */
 .sticky-header {
