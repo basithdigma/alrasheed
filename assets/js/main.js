@@ -140,25 +140,40 @@ var swiper = new Swiper('.hero-slider', {
   speed: 1000,
 });
 
-var swiper = new Swiper('.passenger-slider', {
+var passengerSwiper = new Swiper('.passenger-slider', {
   slidesPerView: 1,
-  spaceBetween: 30, /* Added a little space between slides just to be safe */
+  spaceBetween: 30,
   loop: true,
-  
-  /* Enables the Next/Prev Arrows */
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.passenger-next, .passenger-slider .swiper-button-next',
+    prevEl: '.passenger-prev, .passenger-slider .swiper-button-prev',
   },
-  
   pagination: {
-    el: '.swiper-pagination',
+    el: '.passenger-pagination, .passenger-slider .swiper-pagination',
     clickable: true,
   },
-  
   autoplay: {
     delay: 4000,
-    disableOnInteraction: false, /* Keeps autoplay running after user clicks an arrow */
+    disableOnInteraction: false,
+  },
+  speed: 1000,
+});
+
+var cargoSwiper = new Swiper('.cargo-slider', {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    nextEl: '.cargo-next, .cargo-slider .swiper-button-next',
+    prevEl: '.cargo-prev, .cargo-slider .swiper-button-prev',
+  },
+  pagination: {
+    el: '.cargo-pagination, .cargo-slider .swiper-pagination',
+    clickable: true,
+  },
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false,
   },
   speed: 1000,
 });

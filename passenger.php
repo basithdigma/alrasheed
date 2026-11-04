@@ -3,7 +3,6 @@
 
 <head>
 
-
     <?php include('meta.php'); ?>
 
     <?php include('links.php'); ?>
@@ -37,7 +36,7 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">SpiceJet</a></h3>
+                            <h3 class="title"><a href="spicejet">SpiceJet</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>India's most preferred low-cost airline, connecting the remotest corners of the country with affordable flying.</p>
@@ -61,7 +60,7 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Nepal Airlines</a></h3>
+                            <h3 class="title"><a href="nepal-airlines">Nepal Airlines</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>The flag carrier of Nepal, founded in 1958, operating domestic and international Asian services.</p>
@@ -85,7 +84,7 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Vietnam Airlines</a></h3>
+                            <h3 class="title"><a href="vietnam-airlines">Vietnam Airlines</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Aiming to be a five-star international carrier, committed to the highest levels of safety and security.</p>
@@ -109,7 +108,7 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Cebu Pacific</a></h3>
+                            <h3 class="title"><a href="cebu-pacific">Cebu Pacific</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>Leading Philippine airline operating to over 60 domestic and international destinations across 14 countries.</p>
@@ -133,7 +132,7 @@
                     </div>
                     <div class="course-content">
                         <div class="course-content-header">
-                            <h3 class="title"><a href="javascript:void(0);">Drukair</a></h3>
+                            <h3 class="title"><a href="drukair">Drukair</a></h3>
                         </div>
                         <div class="course-content-body">
                             <p>The national flag carrier of Bhutan, operating scheduled flights to international destinations across South Asia.</p>
@@ -154,17 +153,14 @@
     </div>
 </section>
 
+        <!-- AirlinePros Strategic Global Partnership -->
+        <?php include('airlinepros-partner.php'); ?>
 
         <?php include('footer.php'); ?>
 
     </div>
 
-
-
     <?php include('scripts.php'); ?>
-
-
-
 
 </body>
 

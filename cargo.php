@@ -3,7 +3,6 @@
 
 <head>
 
-
     <?php include('meta.php'); ?>
 
     <?php include('links.php'); ?>
@@ -218,17 +217,14 @@
     </div>
 </section>
 
+        <!-- AirlinePros Strategic Global Partnership -->
+        <?php include('airlinepros-partner.php'); ?>
 
         <?php include('footer.php'); ?>
 
     </div>
 
-
-
     <?php include('scripts.php'); ?>
-
-
-
 
 </body>
 

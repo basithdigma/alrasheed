@@ -585,7 +585,7 @@
                                  if (!$has_jobs) {
                                      echo '<div class="alert alert-info">No active job openings at the moment. Please feel free to submit a general application.</div>';
                                  }
-                            } catch (PDOException $e) {
+                            } catch (Throwable $e) {
                                 echo '<div class="alert alert-danger">Unable to load job openings.</div>';
                             }
                             ?>
@@ -598,7 +598,7 @@
                     try {
                         $stmt_select = $pdo->query("SELECT job_title FROM careers WHERE status = 'open' ORDER BY job_title ASC");
                         $positions = $stmt_select->fetchAll(PDO::FETCH_COLUMN);
-                    } catch (PDOException $e) {
+                    } catch (Throwable $e) {
                         // fallback below
                     }
                     ?>

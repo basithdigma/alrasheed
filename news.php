@@ -36,7 +36,11 @@
 
                             try {
                                 // Total count for pagination
-                                $totalCount = (int)$pdo->query("SELECT COUNT(*) FROM blogs WHERE status = 'published'")->fetchColumn();
+                                if (!empty($pdo)) {
+                                    $totalCount = (int)$pdo->query("SELECT COUNT(*) FROM blogs WHERE status = 'published'")->fetchColumn();
+                                } else {
+                                    $totalCount = 0;
+                                }
                                 $totalPages = (int)ceil($totalCount / $perPage);
                                 if ($totalPages > 0 && $page > $totalPages) {
                                     $page = $totalPages;
@@ -89,7 +93,7 @@
                             </div>
                             <?php
                                 endif;
-                            } catch (PDOException $e) {
+                            } catch (Throwable $e) {
                                 echo '<div class="col-12 text-center text-danger py-4">Unable to load news updates at this time.</div>';
                             }
                             ?>

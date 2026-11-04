@@ -1,0 +1,536 @@
+/* ==========================================================================
+   Al-Rashed International Aviation - Custom Responsive & Modern UI Enhancements
+   ========================================================================== */
+
+/* 1. Global Mobile Fixes & Overflow Prevention
+   -------------------------------------------------------------------------- */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.page-wrapper {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Preloader */
+.preloader {
+    overflow: hidden;
+}
+
+.preloader-inner {
+    max-width: 90vw;
+    max-height: 90vw;
+}
+
+/* 2. Responsive Section Spacings on Mobile
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .ptb-120 {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .ptb-80 {
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+    .section-header {
+        margin-bottom: 30px;
+    }
+    .section-header .section-title {
+        font-size: 26px;
+        line-height: 1.3;
+    }
+    .section-header .sub-title {
+        font-size: 13px;
+    }
+}
+
+/* 3. Offer Areas & Sliders (Passenger & Cargo)
+   -------------------------------------------------------------------------- */
+.offer-area {
+    background-color: #121f3d !important;
+    border-radius: 16px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25) !important;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-thumb {
+    width: 50%;
+    align-self: stretch;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    background: #09152e;
+}
+
+.offer-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.offer-area:hover .offer-thumb img {
+    transform: scale(1.04);
+}
+
+/* Mobile & Tablet Slider Stacking */
+@media (max-width: 991px) {
+    .offer-thumb {
+        width: 100% !important;
+        height: 270px !important;
+        min-height: 270px !important;
+        border-radius: 16px 16px 0 0;
+    }
+    .offer-content {
+        width: 100% !important;
+        padding: 30px 22px !important;
+    }
+    .offer-content .title {
+        font-size: 22px;
+        line-height: 1.35;
+        margin-bottom: 12px;
+    }
+    .offer-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 575px) {
+    .offer-thumb {
+        height: 220px !important;
+        min-height: 220px !important;
+    }
+    .offer-content {
+        padding: 24px 18px !important;
+    }
+    .offer-content .title {
+        font-size: 20px;
+    }
+    .offer-content ul li {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+}
+
+/* Navigation button responsiveness */
+.swiper-button-next, .swiper-button-prev {
+    background-color: rgba(15, 37, 96, 0.75);
+    color: #ffffff !important;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: #f37321;
+    border-color: #f37321;
+}
+
+@media (max-width: 767px) {
+    .swiper-button-next, .swiper-button-prev {
+        display: none !important; /* Hide arrows on mobile in favor of swipe + pagination */
+    }
+}
+
+/* 4. Course Cards Uniformity (Passenger & Cargo Listing Pages)
+   -------------------------------------------------------------------------- */
+.course-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 8px 30px rgba(15, 37, 96, 0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+    border: 1px solid #edf2f7;
+}
+
+.course-item:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(15, 37, 96, 0.14);
+}
+
+.course-thumb {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    overflow: hidden;
+    background: #0f2560;
+}
+
+.course-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.course-item:hover .course-thumb img {
+    transform: scale(1.08);
+}
+
+.course-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 24px;
+}
+
+.course-content-body {
+    flex-grow: 1;
+}
+
+.course-content-footer {
+    margin-top: auto;
+    padding-top: 18px;
+    border-top: 1px solid #f1f5f9;
+}
+
+@media (max-width: 575px) {
+    .course-thumb {
+        height: 190px;
+    }
+    .course-content {
+        padding: 18px;
+    }
+    .course-content-header .title {
+        font-size: 19px;
+    }
+}
+
+/* 5. AirlinePros Strategic Partnership Section
+   -------------------------------------------------------------------------- */
+.airlinepros-partnership-section {
+    position: relative;
+    padding: 70px 0 90px;
+    background: linear-gradient(180deg, #f8fafc 0%, #eef2f6 100%);
+    overflow: hidden;
+}
+
+.airlinepros-card {
+    position: relative;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 50px 45px 45px;
+    box-shadow: 0 20px 50px rgba(15, 37, 96, 0.09), 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Ambient glow accents */
+.partnership-glow-1 {
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 260px;
+    height: 260px;
+    background: radial-gradient(circle, rgba(243, 115, 33, 0.12) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.partnership-glow-2 {
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    width: 320px;
+    height: 320px;
+    background: radial-gradient(circle, rgba(15, 37, 96, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* Strategic Partnership Pill */
+.partnership-badge-wrap {
+    display: inline-block;
+}
+
+.partnership-badge {
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(15, 37, 96, 0.08) 0%, rgba(243, 115, 33, 0.08) 100%);
+    color: #0f2560;
+    border: 1px solid rgba(15, 37, 96, 0.18);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    padding: 7px 18px;
+    border-radius: 50px;
+}
+
+.partnership-badge i {
+    color: #f37321;
+}
+
+/* Logo Badge */
+.airlinepros-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.airlinepros-logo-link {
+    display: inline-block;
+    padding: 14px 28px;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 8px 25px rgba(15, 37, 96, 0.06);
+    transition: all 0.3s ease;
+}
+
+.airlinepros-logo-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px rgba(15, 37, 96, 0.12);
+    border-color: #cbd5e1;
+}
+
+.airlinepros-logo-img {
+    height: 52px;
+    width: auto;
+    max-width: 260px;
+    display: block;
+    object-fit: contain;
+}
+
+/* Heading & Typography */
+.partnership-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0f2560;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.partnership-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 24px;
+}
+
+.partnership-divider {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #0f2560 0%, #f37321 100%);
+    margin: 0 auto 28px;
+    border-radius: 4px;
+}
+
+.partnership-description p {
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #334155;
+    margin-bottom: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.partnership-description p strong {
+    color: #0f2560;
+}
+
+/* Key Highlights Feature Grid */
+.partnership-features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+    margin: 35px 0 30px;
+}
+
+.partnership-feature-item {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 20px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.partnership-feature-item:hover {
+    background: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(15, 37, 96, 0.08);
+    border-color: #f37321;
+}
+
+.partnership-feature-item .feature-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(15, 37, 96, 0.1) 0%, rgba(243, 115, 33, 0.1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0f2560;
+    font-size: 18px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+.partnership-feature-item:hover .feature-icon {
+    background: #f37321;
+    color: #ffffff;
+}
+
+.partnership-feature-item h6 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0f2560;
+    margin-bottom: 4px;
+}
+
+.partnership-feature-item p {
+    font-size: 12.5px;
+    color: #64748b;
+    margin-bottom: 0;
+    line-height: 1.35;
+}
+
+/* CTA & Link Styling */
+.partnership-cta-btn {
+    background: linear-gradient(135deg, #0f2560 0%, #173b94 100%) !important;
+    color: #ffffff !important;
+    padding: 13px 32px !important;
+    border-radius: 50px !important;
+    font-size: 14.5px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.3px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    box-shadow: 0 8px 24px rgba(15, 37, 96, 0.25) !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+}
+
+.partnership-cta-btn:hover {
+    background: linear-gradient(135deg, #f37321 0%, #e05e0c 100%) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(243, 115, 33, 0.35) !important;
+}
+
+.partnership-url-text {
+    font-size: 13.5px;
+    color: #64748b;
+}
+
+.partnership-url-text a {
+    color: #0f2560;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.partnership-url-text a:hover {
+    color: #f37321;
+}
+
+/* Responsive AirlinePros Section */
+@media (max-width: 991px) {
+    .airlinepros-card {
+        padding: 38px 28px 32px;
+    }
+    .partnership-title {
+        font-size: 24px;
+    }
+    .partnership-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+}
+
+@media (max-width: 575px) {
+    .airlinepros-partnership-section {
+        padding: 50px 0 65px;
+    }
+    .airlinepros-card {
+        padding: 28px 18px 25px;
+        border-radius: 18px;
+    }
+    .airlinepros-logo-img {
+        height: 42px;
+        max-width: 220px;
+    }
+    .partnership-title {
+        font-size: 20px;
+    }
+    .partnership-subtitle {
+        font-size: 13.5px;
+    }
+    .partnership-description p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .partnership-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .partnership-feature-item {
+        padding: 14px 8px;
+    }
+    .partnership-feature-item h6 {
+        font-size: 13px;
+    }
+    .partnership-feature-item p {
+        font-size: 11.5px;
+    }
+    .partnership-cta-btn {
+        width: 100%;
+        justify-content: center;
+        padding: 12px 20px !important;
+        font-size: 13.5px !important;
+    }
+}
+
+/* 6. Footer Responsive Polish
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .footer-section {
+        padding-top: 60px !important;
+    }
+    .footer-widget {
+        margin-bottom: 25px;
+    }
+    .footer-widget .widget-title {
+        font-size: 17px;
+        margin-bottom: 12px;
+    }
+    .footer-list li {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .copyright-area {
+        padding: 25px 0 15px;
+    }
+}
+
