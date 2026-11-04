@@ -73,7 +73,7 @@
 
          <section class="offer-section ptb-80">
             <div class="container">
-                <div class="swiper passenger-slider" style="overflow: hidden; width: 100%;">
+                <div class="swiper-container swiper passenger-slider" style="overflow: hidden; width: 100%;">
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide offer-area" data-aos="fade-up" data-aos-duration="1200">
@@ -242,7 +242,7 @@
 
         <section class="offer-section ptb-80">
     <div class="container">
-        <div class="swiper cargo-slider" style="overflow: hidden; width: 100%;">
+        <div class="swiper-container swiper cargo-slider" style="overflow: hidden; width: 100%;">
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide offer-area" data-aos="fade-up" data-aos-duration="1200">

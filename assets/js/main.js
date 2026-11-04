@@ -145,11 +145,11 @@ var passengerSwiper = new Swiper('.passenger-slider', {
   spaceBetween: 30,
   loop: true,
   navigation: {
-    nextEl: '.passenger-next, .passenger-slider .swiper-button-next',
-    prevEl: '.passenger-prev, .passenger-slider .swiper-button-prev',
+    nextEl: '.passenger-next',
+    prevEl: '.passenger-prev',
   },
   pagination: {
-    el: '.passenger-pagination, .passenger-slider .swiper-pagination',
+    el: '.passenger-pagination',
     clickable: true,
   },
   autoplay: {
@@ -164,11 +164,11 @@ var cargoSwiper = new Swiper('.cargo-slider', {
   spaceBetween: 30,
   loop: true,
   navigation: {
-    nextEl: '.cargo-next, .cargo-slider .swiper-button-next',
-    prevEl: '.cargo-prev, .cargo-slider .swiper-button-prev',
+    nextEl: '.cargo-next',
+    prevEl: '.cargo-prev',
   },
   pagination: {
-    el: '.cargo-pagination, .cargo-slider .swiper-pagination',
+    el: '.cargo-pagination',
     clickable: true,
   },
   autoplay: {

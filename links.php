@@ -24,8 +24,8 @@
 <!-- nice select css -->
 <link rel="stylesheet" href="assets/css/nice-select.css">
 <!-- main style css link -->
-<link rel="stylesheet" href="assets/css/style.css?v=1.2">
+<link rel="stylesheet" href="assets/css/style.css?v=2.2">
 <!-- Airline Detail Page Custom Styles -->
 <link rel="stylesheet" href="assets/css/airline-detail.css">
 <!-- Custom Responsive & Enhancements -->
-<link rel="stylesheet" href="assets/css/custom-responsive.css?v=1.0">
+<link rel="stylesheet" href="assets/css/custom-responsive.css?v=2.2">
