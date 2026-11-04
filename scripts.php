@@ -17,4 +17,4 @@
     <!-- nice select js -->
     <script src="assets/js/jquery.nice-select.js"></script>
     <!-- main -->
-    <script src="assets/js/main.js?v=2.2"></script>
+    <script src="assets/js/main.js?v=2.3"></script>

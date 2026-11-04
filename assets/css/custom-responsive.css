@@ -125,75 +125,12 @@ img {
     }
 }
 
-/* Navigation button responsiveness - Cargo & Passenger Sliders */
-.passenger-slider, .cargo-slider {
-    position: relative;
-    padding-bottom: 35px;
-}
-
+/* Navigation buttons disabled for Cargo & Passenger Sliders */
 .passenger-slider .swiper-button-next,
 .passenger-slider .swiper-button-prev,
 .cargo-slider .swiper-button-next,
 .cargo-slider .swiper-button-prev {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    width: 50px !important;
-    height: 50px !important;
-    background: #ffffff !important;
-    color: #0f2560 !important;
-    border-radius: 50% !important;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28) !important;
-    border: 2px solid #0f2560 !important;
-    top: 50% !important;
-    transform: translateY(-50%) !important;
-    z-index: 35 !important;
-    cursor: pointer !important;
-    transition: all 0.3s ease !important;
-}
-
-.passenger-slider .swiper-button-prev,
-.cargo-slider .swiper-button-prev {
-    left: 15px !important;
-}
-
-.passenger-slider .swiper-button-next,
-.cargo-slider .swiper-button-next {
-    right: 15px !important;
-}
-
-.passenger-slider .swiper-button-next i,
-.passenger-slider .swiper-button-prev i,
-.cargo-slider .swiper-button-next i,
-.cargo-slider .swiper-button-prev i {
-    font-size: 18px !important;
-    color: #0f2560 !important;
-    line-height: 1 !important;
-    transition: color 0.3s ease !important;
-}
-
-.passenger-slider .swiper-button-next:after,
-.passenger-slider .swiper-button-prev:after,
-.cargo-slider .swiper-button-next:after,
-.cargo-slider .swiper-button-prev:after {
     display: none !important;
-}
-
-.passenger-slider .swiper-button-next:hover,
-.passenger-slider .swiper-button-prev:hover,
-.cargo-slider .swiper-button-next:hover,
-.cargo-slider .swiper-button-prev:hover {
-    background: #0f2560 !important;
-    color: #ffffff !important;
-    transform: translateY(-50%) scale(1.08) !important;
-    box-shadow: 0 12px 28px rgba(15, 37, 96, 0.4) !important;
-}
-
-.passenger-slider .swiper-button-next:hover i,
-.passenger-slider .swiper-button-prev:hover i,
-.cargo-slider .swiper-button-next:hover i,
-.cargo-slider .swiper-button-prev:hover i {
-    color: #ffffff !important;
 }
 
 /* Swiper Pagination Bullets */

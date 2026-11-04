@@ -144,10 +144,6 @@ var passengerSwiper = new Swiper('.passenger-slider', {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
-  navigation: {
-    nextEl: '.passenger-next',
-    prevEl: '.passenger-prev',
-  },
   pagination: {
     el: '.passenger-pagination',
     clickable: true,
@@ -163,10 +159,6 @@ var cargoSwiper = new Swiper('.cargo-slider', {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
-  navigation: {
-    nextEl: '.cargo-next',
-    prevEl: '.cargo-prev',
-  },
   pagination: {
     el: '.cargo-pagination',
     clickable: true,

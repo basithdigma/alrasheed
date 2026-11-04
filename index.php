@@ -198,9 +198,6 @@
 
                     </div>
 
-                    <div class="swiper-button-prev passenger-prev"><i class="fas fa-chevron-left"></i></div>
-                    <div class="swiper-button-next passenger-next"><i class="fas fa-chevron-right"></i></div>
-
                     <div class="swiper-pagination passenger-pagination"></div>
                 </div>
             </div>
@@ -438,9 +435,6 @@
                 </div>
 
             </div>
-
-                    <div class="swiper-button-prev cargo-prev"><i class="fas fa-chevron-left"></i></div>
-                    <div class="swiper-button-next cargo-next"><i class="fas fa-chevron-right"></i></div>
                     <div class="swiper-pagination cargo-pagination"></div>
         </div>
     </div>
