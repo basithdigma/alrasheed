@@ -1,5 +1,4 @@
 # Database configuration with sensitive credentials
-admin/includes/db.php
 
 # Scratch and trash files
 bin.php
