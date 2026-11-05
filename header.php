@@ -29,7 +29,7 @@
                                     <ul class="sub-menu">
                                         <li><a href="passenger">Passenger GSA</a></li>
                                         <li><a href="cargo">Cargo GSA</a></li>
-                                        <li><a href="charter">CharterServices</a></li>
+                                        <li><a href="charter">Charter Services</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="news">News & Events</a></li>

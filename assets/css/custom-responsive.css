@@ -85,6 +85,20 @@ img {
     transform: scale(1.04);
 }
 
+/* Cargo Slider Specific Alignment */
+@media (min-width: 992px) {
+    .cargo-slider .offer-thumb {
+        width: 54%;
+    }
+    .cargo-slider .offer-content {
+        width: 46%;
+    }
+}
+.cargo-slider .cargo-thumb img {
+    object-fit: cover !important;
+    object-position: center center !important;
+}
+
 /* Mobile & Tablet Slider Stacking */
 @media (max-width: 991px) {
     .offer-thumb {

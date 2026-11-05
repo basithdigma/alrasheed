@@ -591,18 +591,13 @@
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <section class="team-section">
             <div class="container">
-                <div class="row align-items-end justify-content-between mb-5">
-                    <div class="col-md-8">
+                <div class="row align-items-end mb-5">
+                    <div class="col-12">
                         <div class="section-tag mb-2" data-aos="fade-down">
                             <span class="tag-line"></span>
                             <span class="tag-text">OUR TEAM</span>
                         </div>
                         <h2 class="section-heading-main mb-0" data-aos="fade-up">Leadership Excellence</h2>
-                    </div>
-                    <div class="col-md-4 text-md-right mt-3 mt-md-0" data-aos="fade-left">
-                        <a href="javascript:void(0);" class="team-header-link">
-                            Meet Our Team <i class="fas fa-arrow-right ml-1"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -678,8 +673,15 @@
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             6. PARTNERS LOGO STRIP
         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-        <div class="partners-section">
+        <div class="partners-section ptb-60">
             <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-xl-12 text-center">
+                        <div class="section-header mb-0">
+                            <h2 class="section-title">Our Associates</h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="partner-logo-item">

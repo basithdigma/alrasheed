@@ -217,9 +217,6 @@
     </div>
 </section>
 
-        <!-- AirlinePros Strategic Global Partnership -->
-        <?php include('airlinepros-partner.php'); ?>
-
         <?php include('footer.php'); ?>
 
     </div>

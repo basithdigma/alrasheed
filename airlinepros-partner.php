@@ -80,10 +80,6 @@
                             <span>Explore AirlinePros</span>
                             <i class="fas fa-external-link-alt ml-2"></i>
                         </a>
-                        <div class="partnership-url-text mt-2">
-                            <span>Website link: </span>
-                            <a href="https://www.airlinepros.com/" target="_blank" rel="noopener noreferrer">https://www.airlinepros.com/</a>
-                        </div>
                     </div>
 
                 </div>

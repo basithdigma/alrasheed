@@ -247,7 +247,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/c-turk.webp" alt="Turkish Cargo" style="object-position: 50% 50%;">
+                        <img src="assets/img/c-turk.webp" alt="Turkish Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -271,7 +271,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/egypth.webp" alt="Egypt Air Cargo" style="object-position: 46% 50%;">
+                        <img src="assets/img/cargo/egypth.webp" alt="Egypt Air Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -295,7 +295,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/american.webp" alt="American Airlines Cargo" style="object-position: 50% 50%;">
+                        <img src="assets/img/cargo/american.webp" alt="American Airlines Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -319,7 +319,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/ethopian.webp" alt="Ethiopian Airlines Cargo" style="object-position: 52% 50%;">
+                        <img src="assets/img/cargo/ethopian.webp" alt="Ethiopian Airlines Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -343,7 +343,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/coyne.webp" alt="Coyne Air" style="object-position: 18% 50%;">
+                        <img src="assets/img/cargo/coyne.webp" alt="Coyne Air" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -367,7 +367,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/myf.webp" alt="MY FREIGHTER" style="object-position: 45% 50%;">
+                        <img src="assets/img/cargo/myf.webp" alt="MY FREIGHTER" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -391,7 +391,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/centu.webp" alt="Centrum Air" style="object-position: 36% 50%;">
+                        <img src="assets/img/cargo/centu.webp" alt="Centrum Air" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -415,7 +415,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/fits.webp" alt="Fits Cargo" style="object-position: 50% 50%;">
+                        <img src="assets/img/cargo/fits.webp" alt="Fits Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -531,9 +531,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Sales & Marketing</a></h3>
                                             <p>As a true partner for Airlines we represent, we understand market trends and evolving customer demand.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -546,9 +543,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Operations</a></h3>
                                             <p>Ensuring qualified manpower and appropriate certifications in regard to regulatory authorities.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -561,9 +555,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Corporate Sales</a></h3>
                                             <p>Dedicated commercial department focused on travel agencies, tour operators, and corporate clients.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -576,9 +567,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Reservation & Ticketing</a></h3>
                                             <p>Top quality travel and tourism services with comprehensive airline packages for individuals and corporations.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -591,9 +579,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Customer Service</a></h3>
                                             <p>Ensuring customer satisfaction by exceeding expectations and delivering on every service promise.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -606,9 +591,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Special Handling Cargo</a></h3>
                                             <p>Adherence to the highest industry standards to enhance business opportunities for our cargo clients.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -621,9 +603,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">IT & Communications</a></h3>
                                             <p>ICT solutions through our proprietary FIASTA system, providing a complete range of info-tech services.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -636,9 +615,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">PR & Communication</a></h3>
                                             <p>Experienced in event handling and maintaining strong airline presence across local media channels.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -651,9 +627,6 @@
                                         <div class="charter-content">
                                             <h3 class="title"><a href="javascript:void(0);">Administrative & Legal</a></h3>
                                             <p>Negotiations with administrative authorities like Civil Aviation and Airport Authorities for airline operations.</p>
-                                            <div class="charter-btn">
-                                                <a href="javascript:void(0);"><i class="icon-btn-icon-v2"></i> View details</a>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>

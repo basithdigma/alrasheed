@@ -40,7 +40,7 @@
                             <a class="nav-link" id="cargo-tab" data-toggle="pill" href="#cargo-charter" role="tab" aria-controls="cargo-charter" aria-selected="false">
                                 <i class="fas fa-boxes mr-2"></i>
                                 <span>Cargo Charters</span>
-                                <span class="charter-tab-badge">15</span>
+                                <span class="charter-tab-badge">14</span>
                             </a>
                         </li>
                     </ul>
@@ -485,24 +485,6 @@
                 </div>
             </div>
 
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30" data-aos="fade-up" data-aos-duration="1000">
-                <div class="course-item charter-service-item">
-                    <div class="course-thumb charter-thumb">
-                        <img src="assets/img/charter/cargo-artwork.jpg" alt="Fine Artwork & Museum Exhibits">
-                        <span class="charter-badge">Fine Art & Museum</span>
-                    </div>
-                    <div class="course-content">
-                        <div class="course-content-header">
-                            <h3 class="title">Fine Artwork & Museum Exhibits</h3>
-                        </div>
-                        <div class="course-content-body">
-                            <p>Climate-controlled, high-security air transport for museum collections, historical antiquities, private art exhibitions, and priceless cultural assets.</p>
-                        </div>
-                        <div class="course-content-footer">
-                            <a href="contact?subject=Fine%20Artwork%20%26%20Museum%20Exhibits" class="btn--base charter-card-btn">Request Quote <i class="fas fa-paper-plane ml-2"></i></a>
-                        </div>
-                    </div>
-                </div>
             </div>
                         </div>
                     </div>
@@ -529,9 +511,6 @@
 
             </div>
         </section>
-
-        <!-- AirlinePros Strategic Global Partnership -->
-        <?php include('airlinepros-partner.php'); ?>
 
         <?php include('footer.php'); ?>
 
