@@ -247,7 +247,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/c-turk.webp" alt="Turkish Cargo" style="object-position: center center;">
+                        <img src="assets/img/c-turk.webp?v=2.6" alt="Turkish Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -271,7 +271,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/egypth.webp" alt="Egypt Air Cargo" style="object-position: center center;">
+                        <img src="assets/img/cargo/egypth.webp?v=2.6" alt="Egypt Air Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -295,7 +295,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/american.webp" alt="American Airlines Cargo" style="object-position: center center;">
+                        <img src="assets/img/cargo/american.webp?v=2.6" alt="American Airlines Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -319,7 +319,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/ethopian.webp" alt="Ethiopian Airlines Cargo" style="object-position: center center;">
+                        <img src="assets/img/cargo/ethopian.webp?v=2.6" alt="Ethiopian Airlines Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -343,7 +343,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/coyne.webp" alt="Coyne Air" style="object-position: center center;">
+                        <img src="assets/img/cargo/coyne.webp?v=2.6" alt="Coyne Air" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -367,7 +367,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/myf.webp" alt="MY FREIGHTER" style="object-position: center center;">
+                        <img src="assets/img/cargo/myf.webp?v=2.6" alt="MY FREIGHTER" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -391,7 +391,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/centu.webp" alt="Centrum Air" style="object-position: center center;">
+                        <img src="assets/img/cargo/centu.webp?v=2.6" alt="Centrum Air" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
@@ -415,7 +415,7 @@
                         <img src="assets/images/element/element-14.png" alt="element">
                     </div>
                     <div class="offer-thumb cargo-thumb">
-                        <img src="assets/img/cargo/fits.webp" alt="Fits Cargo" style="object-position: center center;">
+                        <img src="assets/img/cargo/fits.webp?v=2.6" alt="Fits Cargo" style="object-position: center center;">
                     </div>
                     <div class="offer-content">
                         <span class="sub-title">GSA Cargo Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-boxes"></i></span></span>
