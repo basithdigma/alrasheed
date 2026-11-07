@@ -28,10 +28,10 @@
                             <div class="popular-widget-box">
                                 <div class="single-popular-item d-flex flex-wrap align-items-center">
                                     <div class="popular-item-thumb col-3">
-                                        <img src="assets/img/passenger/nepal.webp" alt="Nepal Airlines">
+                                        <img src="assets/img/passenger/spj.webp" alt="SpiceJet">
                                     </div>
                                     <div class="popular-item-content">
-                                        <h5 class="title"><a href="nepal-airlines">Nepal Airlines</a></h5>
+                                        <h5 class="title"><a href="spicejet">SpiceJet</a></h5>
                                     </div>
                                 </div>
                                 <div class="single-popular-item d-flex flex-wrap align-items-center">

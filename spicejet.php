@@ -228,15 +228,6 @@
                             <h4 class="widget-title">Other Partner Airlines</h4>
                             <div class="airline-nav-list">
 
-                                <a href="nepal-airlines" class="airline-nav-item">
-                                    <div class="airline-nav-thumb">
-                                        <img src="assets/img/passenger/nepal.webp" alt="Nepal Airlines">
-                                    </div>
-                                    <div class="airline-nav-info">
-                                        <h5>Nepal Airlines</h5>
-                                        <span>36 Destinations • National Carrier</span>
-                                    </div>
-                                </a>
                                 <a href="vietnam-airlines" class="airline-nav-item">
                                     <div class="airline-nav-thumb">
                                         <img src="assets/img/passenger/vietnam.webp" alt="Vietnam Airlines">

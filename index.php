@@ -105,30 +105,6 @@
                                 <img src="assets/images/element/element-14.png" alt="element">
                             </div>
                             <div class="offer-thumb">
-                                <img src="assets/img/passenger/nepal.webp" alt="Nepal Airlines">
-                            </div>
-                            <div class="offer-content">
-                                <span class="sub-title">GSA Passenger Airlines <span class="right-icon text--base ml-2" data-aos="fade-right" data-aos-duration="1200"><i class="fas fa-plane"></i></span></span>
-                                <h2 class="title">Nepal Airlines: The Flag Carrier of Nepal</h2>
-                                <p>
-                                    Nepal Airline is the flag carrier of Nepal. Founded in 1958, it is the oldest airline of the country. Out of its main base at Tribhuvan International Airport, Kathmandu, the airline operates domestic services within Nepal and medium-haul services in Asia.
-                                </p>
-                                <ul class="mb-4 text-white list-unstyled">
-                                    <li><i class="fas fa-check-circle text--base mr-2"></i> <strong>Airline Code:</strong> RA</li>
-                                    <li><i class="fas fa-check-circle text--base mr-2"></i> <strong>Network:</strong> 36 Online Destinations</li>
-                                    <li><i class="fas fa-check-circle text--base mr-2"></i> <strong>Hubs:</strong> PHB</li>
-                                </ul>
-                                <div class="offer-btn">
-                                    <a href="nepal-airlines" class="custom-btn">Read More <i class="fas fa-ticket-alt ml-2"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide offer-area" data-aos="fade-up" data-aos-duration="1200">
-                            <div class="offer-element">
-                                <img src="assets/images/element/element-14.png" alt="element">
-                            </div>
-                            <div class="offer-thumb">
                                 <img src="assets/img/passenger/vietnam.webp" alt="Vietnam Airlines">
                             </div>
                             <div class="offer-content">
@@ -651,32 +627,39 @@
 
         <div class="">
             <div class="container">
-                <div class="row justify-content-center mt-10-none mb-10-none">
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <div class="partners">
+                <div class="row justify-content-center align-items-center mt-10-none mb-10-none">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partners text-center">
                             <a href="https://www.alrashed.travel/" target="_blank">
                                 <img src="assets/img/logtravel.webp" alt="Al-Rashed International Travel Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <div class="partners">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partners text-center">
                             <a href="https://al-rashedgroup.com/" target="_blank">
                                 <img src="assets/img/shipping.webp" alt="Al-Rashed International Shipping Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <div class="partners">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partners text-center">
                             <a href="https://alrashedholidays.com/" target="_blank">
-                                <img src="assets/img/holiday.webp" alt="Al-Rashed International Freight Co.">
+                                <img src="assets/img/holiday.webp" alt="Al-Rashed International Holidays">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <div class="partners">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partners text-center">
                             <a href="https://www.alrashedfreight.com/" target="_blank">
-                                <img src="assets/img/freight.webp" alt="Al-Rashed International Holidays">
+                                <img src="assets/img/freight.webp" alt="Al-Rashed International Freight Co.">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partners text-center">
+                            <a href="https://travrate.com/" target="_blank">
+                                <img src="assets/img/travrate.webp?v=2.7" alt="Travrate">
                             </a>
                         </div>
                     </div>

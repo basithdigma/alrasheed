@@ -1,3 +1,7 @@
+<?php
+header("Location: passenger", true, 301);
+exit();
+?>
 <!DOCTYPE html>
 <html lang="en">
 

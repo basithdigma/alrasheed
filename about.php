@@ -682,32 +682,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-3 col-md-6 col-6">
-                        <div class="partner-logo-item">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partner-logo-item text-center">
                             <a href="https://www.alrashed.travel/" target="_blank">
                                 <img src="assets/img/logtravel.webp" alt="Al-Rashed International Travel Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6">
-                        <div class="partner-logo-item">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partner-logo-item text-center">
                             <a href="https://al-rashedgroup.com/" target="_blank">
                                 <img src="assets/img/shipping.webp" alt="Al-Rashed International Shipping Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6">
-                        <div class="partner-logo-item">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partner-logo-item text-center">
                             <a href="https://alrashedholidays.com/" target="_blank">
-                                <img src="assets/img/holiday.webp" alt="Al-Rashed International Freight Co.">
+                                <img src="assets/img/holiday.webp" alt="Al-Rashed International Holidays">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6">
-                        <div class="partner-logo-item">
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partner-logo-item text-center">
                             <a href="https://www.alrashedfreight.com/" target="_blank">
-                                <img src="assets/img/freight.webp" alt="Al-Rashed International Holidays">
+                                <img src="assets/img/freight.webp" alt="Al-Rashed International Freight Co.">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg col-md-4 col-6">
+                        <div class="partner-logo-item text-center">
+                            <a href="https://travrate.com/" target="_blank">
+                                <img src="assets/img/travrate.webp?v=2.7" alt="Travrate">
                             </a>
                         </div>
                     </div>

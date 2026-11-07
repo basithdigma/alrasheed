@@ -56,30 +56,6 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/passenger/nepal.webp" alt="Nepal Airlines">
-                    </div>
-                    <div class="course-content">
-                        <div class="course-content-header">
-                            <h3 class="title"><a href="nepal-airlines">Nepal Airlines</a></h3>
-                        </div>
-                        <div class="course-content-body">
-                            <p>The flag carrier of Nepal, founded in 1958, operating domestic and international Asian services.</p>
-                            <ul class="list-unstyled mt-2" style="font-size: 14px;">
-                                <li><strong>Code:</strong> RA</li>
-                                <li><strong>Network:</strong> 36 Destinations</li>
-                                <li><strong>Hubs:</strong> PHB</li>
-                            </ul>
-                        </div>
-                        <div class="course-content-footer">
-                            <a href="nepal-airlines" class="btn--base">View More <i class="fas fa-ticket-alt ml-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
-                <div class="course-item">
-                    <div class="course-thumb">
                         <img src="assets/img/passenger/vietnam.webp" alt="Vietnam Airlines">
                     </div>
                     <div class="course-content">
