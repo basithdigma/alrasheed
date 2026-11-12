@@ -97,7 +97,7 @@
         /* Our Story Section */
         .story-section {
             padding: 100px 0;
-            background-color: #ffffff;
+            background-color: transparent;
             position: relative;
         }
 
@@ -201,7 +201,7 @@
         /* Why Choose Us Section */
         .why-us-section {
             padding: 100px 0;
-            background-color: #f8fafc;
+            background-color: transparent;
         }
 
         .section-heading-main {
@@ -269,7 +269,7 @@
         /* Leadership / Team Section */
         .team-section {
             padding: 100px 0;
-            background-color: #ffffff;
+            background-color: transparent;
         }
 
         .team-header-link {
@@ -353,8 +353,8 @@
         /* Partners Section */
         .partners-section {
             padding: 50px 0;
-            background-color: #ffffff;
-            border-top: 1px solid #e2e8f0;
+            background-color: transparent;
+            border-top: none;
         }
 
         .partner-logo-item {
