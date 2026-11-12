@@ -78,7 +78,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/cargo/american.webp" alt="American Airlines Cargo">
+                        <img src="assets/img/cargo/american.webp?v=3.0" alt="American Airlines Cargo">
                         <div class="course-prize">
                             <span>970 Aircrafts</span>
                         </div>
@@ -101,7 +101,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/cargo/ethopian.webp" alt="Ethiopian Airlines Cargo">
+                        <img src="assets/img/cargo/ethopian.webp?v=3.0" alt="Ethiopian Airlines Cargo">
                         <div class="course-prize">
                             <span>1M Ton Cap.</span>
                         </div>
@@ -124,7 +124,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/cargo/coyne.webp" alt="Coyne Air">
+                        <img src="assets/img/cargo/coyne.webp?v=3.0" alt="Coyne Air">
                         <div class="course-prize">
                             <span>12 Aircrafts</span>
                         </div>
@@ -147,7 +147,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/cargo/myf.webp" alt="MY FREIGHTER">
+                        <img src="assets/img/cargo/myf.webp?v=3.0" alt="MY FREIGHTER">
                         <div class="course-prize">
                             <span>10 Aircrafts</span>
                         </div>
@@ -170,7 +170,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/cargo/centu.webp" alt="Centrum Air">
+                        <img src="assets/img/cargo/centu.webp?v=3.0" alt="Centrum Air">
                         <div class="course-prize">
                             <span>15 Aircrafts</span>
                         </div>
@@ -193,7 +193,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30">
                 <div class="course-item">
                     <div class="course-thumb">
-                        <img src="assets/img/cargo/fits.webp" alt="Fits Cargo">
+                        <img src="assets/img/cargo/fits.webp?v=3.0" alt="Fits Cargo">
                         <div class="course-prize">
                             <span>Hybrid Fleet</span>
                         </div>
