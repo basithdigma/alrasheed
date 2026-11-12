@@ -583,7 +583,7 @@ $('.ratings-form-text').on('click', function(){
 
 // Sticky Header
 $(window).on('scroll', function () {
-  if ($(this).scrollTop() > 150) {
+  if ($(this).scrollTop() > 50) {
     $('.header-section').addClass('sticky-header');
   } else {
     $('.header-section').removeClass('sticky-header');

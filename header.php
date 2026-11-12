@@ -15,7 +15,7 @@
                 <div class="header-menu-content">
                     <nav class="navbar navbar-expand-lg p-0">
                         <a class="site-logo site-title" href="./">
-                            <img src="assets/img/logo.webp" alt="Al-Rashed Aviation" class="header-logo-img p-2"> 
+                            <img src="assets/img/logo.webp" alt="Al-Rashed Aviation" class="header-logo-img"> 
                         </a>
                         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="fas fa-bars"></span>
@@ -51,28 +51,85 @@
 </a>
 
 <style>
-.header{
-    background-color: #0f2560;
-}
-header {
+/* Modern Sticky Header & Projected Logo Styling */
+.header-section {
     position: sticky !important;
     top: 0;
     z-index: 9999;
+    background-color: #0f2560;
+    width: 100%;
+    transition: background-color 0.35s ease, backdrop-filter 0.35s ease, -webkit-backdrop-filter 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+}
+.header-section .header {
+    background-color: transparent !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    transition: padding 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .header-logo-img {
-    max-width: 260px;
+    max-width: 320px;
     height: auto;
-    border-radius: 8px;
-    transition: max-width 0.3s ease;
+    display: block;
+    border-radius: 4px;
+    transition: max-width 0.35s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+    /* 3D / Projected Logo Style - Multi-layer ambient & directional shadows */
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.90))
+            drop-shadow(0 2px 4px rgba(0, 10, 40, 0.70))
+            drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
+}
+
+/* Compact Transparent Sticky Ribbon on Scroll */
+.header-section.sticky-header {
+    position: sticky !important;
+    animation: none !important;
+    background: rgba(15, 37, 96, 0.90) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.28) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.header-section.sticky-header .header {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+.header-section.sticky-header .header-logo-img {
+    max-width: 215px !important;
+}
+.header-section.sticky-header .main-menu > li > a {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+@media (max-width: 991px) {
+    .header-logo-img {
+        max-width: 250px;
+    }
+    .header-section.sticky-header .header-logo-img {
+        max-width: 195px !important;
+    }
 }
 @media (max-width: 575px) {
+    .header-section .header {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .header-section.sticky-header .header {
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+    }
     .header-logo-img {
-        max-width: 190px;
+        max-width: 205px;
+    }
+    .header-section.sticky-header .header-logo-img {
+        max-width: 165px !important;
     }
 }
 @media (max-width: 375px) {
     .header-logo-img {
-        max-width: 160px;
+        max-width: 180px;
+    }
+    .header-section.sticky-header .header-logo-img {
+        max-width: 145px !important;
     }
 }
 </style>

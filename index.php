@@ -615,58 +615,55 @@
         </section>
 
   
- <section class="ptb-50 mt-60 brand-section ">
-        <div class="row justify-content-center">
-                    <div class="col-xl-12 text-center">
-                        <div class="section-header">
-                           
-                            <h2 class="section-title">Our Associates</h2>
-                        </div>
+ <section class="ptb-50 mt-60 brand-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12 text-center">
+                    <div class="section-header mb-4">
+                        <h2 class="section-title">Our Associates</h2>
                     </div>
                 </div>
+            </div>
 
-        <div class="">
-            <div class="container">
-                <div class="row justify-content-center align-items-center mt-10-none mb-10-none">
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partners text-center">
-                            <a href="https://www.alrashed.travel/" target="_blank">
-                                <img src="assets/img/logtravel.webp" alt="Al-Rashed International Travel Co.">
-                            </a>
-                        </div>
+            <div class="row justify-content-center align-items-stretch associate-logos-row">
+                <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                    <div class="partners associate-card text-center">
+                        <a href="https://www.alrashed.travel/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Travel Co.">
+                            <img src="assets/img/logtravel.webp" alt="Al-Rashed International Travel Co.">
+                        </a>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partners text-center">
-                            <a href="https://al-rashedgroup.com/" target="_blank">
-                                <img src="assets/img/shipping.webp" alt="Al-Rashed International Shipping Co.">
-                            </a>
-                        </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                    <div class="partners associate-card text-center">
+                        <a href="https://al-rashedgroup.com/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Shipping Co.">
+                            <img src="assets/img/shipping.webp" alt="Al-Rashed International Shipping Co.">
+                        </a>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partners text-center">
-                            <a href="https://alrashedholidays.com/" target="_blank">
-                                <img src="assets/img/holiday.webp" alt="Al-Rashed International Holidays">
-                            </a>
-                        </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                    <div class="partners associate-card text-center">
+                        <a href="https://alrashedholidays.com/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Holidays">
+                            <img src="assets/img/holiday.webp" alt="Al-Rashed International Holidays">
+                        </a>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partners text-center">
-                            <a href="https://www.alrashedfreight.com/" target="_blank">
-                                <img src="assets/img/freight.webp" alt="Al-Rashed International Freight Co.">
-                            </a>
-                        </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                    <div class="partners associate-card text-center">
+                        <a href="https://www.alrashedfreight.com/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Freight Co.">
+                            <img src="assets/img/freight.webp" alt="Al-Rashed International Freight Co.">
+                        </a>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partners text-center">
-                            <a href="https://travrate.com/" target="_blank">
-                                <img src="assets/img/travrate.webp?v=2.7" alt="Travrate">
-                            </a>
-                        </div>
+                </div>
+                <div class="col-8 col-sm-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                    <div class="partners associate-card text-center">
+                        <a href="https://travrate.com/" target="_blank" rel="noopener noreferrer" title="Travrate">
+                            <img src="assets/img/travrate.webp?v=2.8" alt="Travrate">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        </section>
+    </section>
 
         <section class="blog-section ptb-80">
             <div class="container">

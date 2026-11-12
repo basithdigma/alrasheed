@@ -382,18 +382,52 @@
         }
 
         @media (max-width: 991px) {
-            .about-hero-title {
-                font-size: 36px;
-            }
-            .story-title {
-                font-size: 32px;
+            .about-hero-section {
+                background-attachment: scroll !important;
+                background-position: 60% center !important;
+                background-size: cover !important;
+                padding: 60px 0 50px !important;
             }
             .about-hero-overlay {
-                background: rgba(255, 255, 255, 0.92);
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.20) 40%, rgba(255, 255, 255, 0.60) 100%) !important;
+            }
+            .about-hero-card {
+                background: rgba(255, 255, 255, 0.86);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border-radius: 18px;
+                padding: 28px 22px;
+                box-shadow: 0 10px 32px rgba(15, 37, 96, 0.12);
+                border: 1px solid rgba(255, 255, 255, 0.75);
+            }
+            .about-hero-title {
+                font-size: 34px;
+                line-height: 1.2;
+                margin-bottom: 16px;
+            }
+            .story-title {
+                font-size: 30px;
             }
             .partner-logo-item {
                 border-right: none;
                 border-bottom: 1px solid #f1f5f9;
+            }
+        }
+        @media (max-width: 575px) {
+            .about-hero-section {
+                padding: 45px 0 40px !important;
+                background-position: 55% center !important;
+            }
+            .about-hero-card {
+                padding: 22px 16px;
+                border-radius: 14px;
+            }
+            .about-hero-title {
+                font-size: 27px;
+            }
+            .about-hero-desc {
+                font-size: 14px;
+                line-height: 1.65;
             }
         }
     </style>
@@ -413,23 +447,25 @@
             <div class="container about-hero-content">
                 <div class="row">
                     <div class="col-xl-6 col-lg-7">
-                        <div class="section-tag mb-3" data-aos="fade-down" data-aos-duration="1000">
-                            <span class="tag-line"></span>
-                            <span class="tag-text">ABOUT US</span>
-                        </div>
-                        <h1 class="about-hero-title" data-aos="fade-up" data-aos-duration="1200">
-                            A Legacy<br>in Global Aviation
-                        </h1>
-                        <p class="about-hero-desc mb-3" data-aos="fade-up" data-aos-duration="1400">
-                            Al-Rashed International Aviation was formed in 2015 with an aim to excel in the Kuwait airline industry. Our young team of highly enthusiastic professionals has successfully acquired representations of multiple reputable carriers in a short span of time.
-                        </p>
-                        <p class="about-hero-desc mb-4" data-aos="fade-up" data-aos-duration="1600">
-                            With a strong infrastructure and deep local expertise, we provide a full range of GSA services, enabling our business partners to connect with new markets and grow their presence across the region and beyond.
-                        </p>
-                        <div data-aos="fade-up" data-aos-duration="1800">
-                            <a href="services" class="btn-gold-pill">
-                                Our Services <i class="fas fa-arrow-right"></i>
-                            </a>
+                        <div class="about-hero-card">
+                            <div class="section-tag mb-3" data-aos="fade-down" data-aos-duration="1000">
+                                <span class="tag-line"></span>
+                                <span class="tag-text">ABOUT US</span>
+                            </div>
+                            <h1 class="about-hero-title" data-aos="fade-up" data-aos-duration="1200">
+                                A Legacy<br>in Global Aviation
+                            </h1>
+                            <p class="about-hero-desc mb-3" data-aos="fade-up" data-aos-duration="1400">
+                                Al-Rashed International Aviation was formed in 2015 with an aim to excel in the Kuwait airline industry. Our young team of highly enthusiastic professionals has successfully acquired representations of multiple reputable carriers in a short span of time.
+                            </p>
+                            <p class="about-hero-desc mb-4" data-aos="fade-up" data-aos-duration="1600">
+                                With a strong infrastructure and deep local expertise, we provide a full range of GSA services, enabling our business partners to connect with new markets and grow their presence across the region and beyond.
+                            </p>
+                            <div data-aos="fade-up" data-aos-duration="1800">
+                                <a href="services" class="btn-gold-pill">
+                                    Our Services <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -682,39 +718,39 @@
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partner-logo-item text-center">
-                            <a href="https://www.alrashed.travel/" target="_blank">
+                <div class="row justify-content-center align-items-stretch associate-logos-row">
+                    <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                        <div class="partners associate-card text-center">
+                            <a href="https://www.alrashed.travel/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Travel Co.">
                                 <img src="assets/img/logtravel.webp" alt="Al-Rashed International Travel Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partner-logo-item text-center">
-                            <a href="https://al-rashedgroup.com/" target="_blank">
+                    <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                        <div class="partners associate-card text-center">
+                            <a href="https://al-rashedgroup.com/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Shipping Co.">
                                 <img src="assets/img/shipping.webp" alt="Al-Rashed International Shipping Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partner-logo-item text-center">
-                            <a href="https://alrashedholidays.com/" target="_blank">
+                    <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                        <div class="partners associate-card text-center">
+                            <a href="https://alrashedholidays.com/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Holidays">
                                 <img src="assets/img/holiday.webp" alt="Al-Rashed International Holidays">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partner-logo-item text-center">
-                            <a href="https://www.alrashedfreight.com/" target="_blank">
+                    <div class="col-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                        <div class="partners associate-card text-center">
+                            <a href="https://www.alrashedfreight.com/" target="_blank" rel="noopener noreferrer" title="Al-Rashed International Freight Co.">
                                 <img src="assets/img/freight.webp" alt="Al-Rashed International Freight Co.">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg col-md-4 col-6">
-                        <div class="partner-logo-item text-center">
-                            <a href="https://travrate.com/" target="_blank">
-                                <img src="assets/img/travrate.webp?v=2.7" alt="Travrate">
+                    <div class="col-8 col-sm-6 col-md-4 col-lg associate-col mb-3 mb-lg-0">
+                        <div class="partners associate-card text-center">
+                            <a href="https://travrate.com/" target="_blank" rel="noopener noreferrer" title="Travrate">
+                                <img src="assets/img/travrate.webp?v=2.8" alt="Travrate">
                             </a>
                         </div>
                     </div>
