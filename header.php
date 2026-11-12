@@ -51,11 +51,11 @@
 </a>
 
 <style>
-/* Modern Sticky Header & Projected Logo Styling */
+/* Modern Header & 3D Projected Logo Styling */
 .header-section {
-    position: sticky !important;
+    position: relative;
     top: 0;
-    z-index: 9999;
+    z-index: 999;
     background-color: #0f2560;
     width: 100%;
     transition: background-color 0.35s ease, backdrop-filter 0.35s ease, -webkit-backdrop-filter 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
@@ -64,40 +64,54 @@
     background-color: transparent !important;
     padding-top: 12px;
     padding-bottom: 12px;
-    transition: padding 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: padding 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .header-logo-img {
     max-width: 320px;
     height: auto;
     display: block;
     border-radius: 4px;
-    transition: max-width 0.35s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
+    transition: max-width 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s ease;
     /* 3D / Projected Logo Style - Multi-layer ambient & directional shadows */
     filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.90))
             drop-shadow(0 2px 4px rgba(0, 10, 40, 0.70))
             drop-shadow(0 6px 14px rgba(0, 0, 0, 0.45));
 }
 
-/* Compact Transparent Sticky Ribbon on Scroll */
+/* Compact Transparent Small Ribbon While Scrolling */
 .header-section.sticky-header {
-    position: sticky !important;
-    animation: none !important;
-    background: rgba(15, 37, 96, 0.90) !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    z-index: 99999 !important;
+    background: rgba(15, 37, 96, 0.94) !important;
     backdrop-filter: blur(12px) !important;
     -webkit-backdrop-filter: blur(12px) !important;
     box-shadow: 0 4px 22px rgba(0, 0, 0, 0.28) !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    animation: stickySlideDown 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 .header-section.sticky-header .header {
-    padding-top: 4px !important;
-    padding-bottom: 4px !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
 }
 .header-section.sticky-header .header-logo-img {
-    max-width: 215px !important;
+    max-width: 210px !important;
 }
 .header-section.sticky-header .main-menu > li > a {
     padding-top: 8px !important;
     padding-bottom: 8px !important;
+    font-size: 14.5px !important;
+}
+
+@keyframes stickySlideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
 @media (max-width: 991px) {
@@ -105,7 +119,7 @@
         max-width: 250px;
     }
     .header-section.sticky-header .header-logo-img {
-        max-width: 195px !important;
+        max-width: 190px !important;
     }
 }
 @media (max-width: 575px) {
@@ -114,14 +128,14 @@
         padding-bottom: 8px;
     }
     .header-section.sticky-header .header {
-        padding-top: 3px !important;
-        padding-bottom: 3px !important;
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
     }
     .header-logo-img {
         max-width: 205px;
     }
     .header-section.sticky-header .header-logo-img {
-        max-width: 165px !important;
+        max-width: 160px !important;
     }
 }
 @media (max-width: 375px) {
@@ -129,7 +143,7 @@
         max-width: 180px;
     }
     .header-section.sticky-header .header-logo-img {
-        max-width: 145px !important;
+        max-width: 140px !important;
     }
 }
 </style>

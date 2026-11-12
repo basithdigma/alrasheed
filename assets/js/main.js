@@ -582,12 +582,14 @@ $('.ratings-form-text').on('click', function(){
 });
 
 // Sticky Header
-$(window).on('scroll', function () {
-  if ($(this).scrollTop() > 50) {
+function handleStickyHeader() {
+  if ($(window).scrollTop() > 100) {
     $('.header-section').addClass('sticky-header');
   } else {
     $('.header-section').removeClass('sticky-header');
   }
-});
+}
+$(window).on('scroll', handleStickyHeader);
+handleStickyHeader();
 
 })(jQuery);
