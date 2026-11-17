@@ -1,0 +1,16 @@
+name: Deploy to cPanel
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            uapi VersionControl update repository_root=/home/ef3eu1e2is2t/repositories/alrasheed branch=main
+            uapi VersionControlDeployment create repository_root=/home/ef3eu1e2is2t/repositories/alrasheed
