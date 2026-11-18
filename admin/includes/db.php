@@ -1,9 +1,9 @@
 <?php
 // $host = 'srv1065.hstgr.io';
 $host = 'localhost';
-$db   = 'u279284743_alrasheed';
-$user = 'u279284743_alrasheed';
-$pass = 'i5=^cq6H';
+$db   = 'ar-aviation';
+$user = 'aviationdbadmin';
+$pass = 'L=@h}WGi8L5m][@x';
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
