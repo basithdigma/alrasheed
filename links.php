@@ -6,7 +6,8 @@
 <!-- bootstrap css link -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <!-- favicon -->
-<link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+<link rel="icon" href="assets/images/fav.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 <!-- swipper css link -->
 <link rel="stylesheet" href="assets/css/swiper.min.css">
 <!-- lightcase css links -->
