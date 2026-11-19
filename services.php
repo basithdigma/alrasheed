@@ -368,7 +368,7 @@
             <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-30" data-aos="fade-up" data-aos-duration="1000">
                 <div class="course-item charter-service-item">
                     <div class="course-thumb charter-thumb">
-                        <img src="assets/img/charter/cargo-automotive-industrial.jpg" alt="Automotive & Industrial Cargo">
+                        <img src="assets/img/charter/cargo-automotive-industrial.jpg?v=2" alt="Automotive & Industrial Cargo">
                         <span class="charter-badge">Automotive</span>
                     </div>
                     <div class="course-content">
