@@ -35,7 +35,7 @@
                     <!-- Partnership Story Content -->
                     <div class="partnership-description">
                         <p>
-                            Al Rashed has partnered with <strong>Airline Pros</strong>, a leading GSA providing representation, distribution, and commercial services to the airline industry. Airline Pros is an award-winning firm founded and managed by airline professionals with over 500 years of collective travel industry experience.
+                            Al Rashed has partnered with <strong>Airline Pros</strong>, a leading GSA providing representation, distribution, and commercial services to the airline industry. Airline Pros is an award-winning firm founded and managed by airline professionals with decades of combined experience across the global travel and aviation industry.
                         </p>
                         <p>
                             Contracted by both <strong>ARC and IATA</strong>, Airline Pros facilitates airline access to new markets and supports their sales and distribution. This partnership leverages Al Rashed Travel's market presence and Airline Pros' expertise to offer comprehensive travel solutions, including airline reservations, event management, and a wide range of travel services to individuals and corporations, ensuring a hassle-free and memorable travel experience.
